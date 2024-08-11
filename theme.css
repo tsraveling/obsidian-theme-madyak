@@ -39,9 +39,19 @@ svg * {
 	border-left: 4px solid yellow;
 	background-color: #2b2b2a;
 	width: 100%;
-	display: block;
+	display: inline-block;
 	padding-bottom: 6px;
 	padding-top: 3px;
+}
+
+.cm-formatting.cm-header {
+	display: inline-block;
+	width: inherit;
+}
+.cm-header + .cm-header {
+	display: inline-block;
+	width: 60%;
+	border-left: none !important;
 }
 
 .cm-header-2, .cm-header-3, .cm-header-4 {
